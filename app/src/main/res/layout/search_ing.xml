@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="검색 챗봇"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+            <ImageView
+                android:id="@+id/search_ing_imageview_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:id="@+id/search_ing_imageview_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/search_ing_imageview_me"
+                android:layout_alignParentRight="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#f4ecec"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/search_ing_button_no"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="X"
+                android:layout_weight="1"
+                android:textSize="40dp"
+                android:background="#cbc6c6"
+                android:layout_margin="7dp"
+                android:padding="15dp"/>
+            <Button
+                android:id="@+id/search_ing_button_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="O"
+                android:layout_weight="1"
+                android:textSize="40dp"
+                android:background="#9a4444"
+                android:layout_margin="7dp"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
+    </android.support.constraint.ConstraintLayout>

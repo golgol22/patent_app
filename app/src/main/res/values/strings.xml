@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">patent</string>
+    <string name="title_home">Home</string>
+    <string name="title_cal">Calendar</string>
+    <string name="title_search">Search</string>
+    <string name="title_talk">Talk</string>
+    <string name="title_mypage">Mypage</string>
+
+
+</resources>

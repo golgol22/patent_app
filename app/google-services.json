@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110292445653",
+    "firebase_url": "https://projectpatent-d8b38.firebaseio.com",
+    "project_id": "projectpatent-d8b38",
+    "storage_bucket": "projectpatent-d8b38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110292445653:android:a1d82c404de89172",
+        "android_client_info": {
+          "package_name": "com.example.hjy.patent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110292445653-hpvo4mncg97dnduqrf1ni6lrtj2cc80k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hjy.patent",
+            "certificate_hash": "a54b14f770d1a90d5d16cdf09f0d2ddae4da9cb1"
+          }
+        },
+        {
+          "client_id": "110292445653-c4d6d7qghbrhssbkfdb4ve90a98mr2ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_IdPo6ftcbgKRkIg5dHCcDfkFZ4v6bBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110292445653-c4d6d7qghbrhssbkfdb4ve90a98mr2ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
